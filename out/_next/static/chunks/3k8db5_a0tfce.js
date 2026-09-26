@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,35185,e=>{"use strict";var n=e.i(82568);class r extends n.WebPlugin{async canOpenUrl(e){return{value:!0}}async openUrl(e){return window.open(e.url,"_blank"),{completed:!0}}}e.s(["AppLauncherWeb",0,r])}]);
