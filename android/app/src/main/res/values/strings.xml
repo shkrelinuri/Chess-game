@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Endgame Chess</string>
+    <string name="title_activity_main">Endgame Chess</string>
+    <string name="package_name">com.endgame.chess</string>
+    <string name="custom_url_scheme">com.endgame.chess</string>
+</resources>
