@@ -7,7 +7,7 @@ import { Matchmaker } from "./matchmaker";
 
 type GameSocket = Socket<ClientToServerEvents, ServerToClientEvents>;
 
-const port = Number(process.env.SOCKET_PORT ?? 3001);
+const port = Number(process.env.PORT ?? process.env.SOCKET_PORT ?? 3001);
 const httpServer = createServer();
 const allowedOrigins = (process.env.WEB_ORIGINS ?? "http://localhost:3000,capacitor://localhost,http://localhost")
   .split(",").map((origin) => origin.trim()).filter(Boolean);
@@ -135,6 +135,6 @@ setInterval(() => {
   }
 }, 250);
 
-httpServer.listen(port, () => {
-  console.log(`Socket.IO chess server listening on http://localhost:${port}`);
+httpServer.listen(port, "0.0.0.0", () => {
+  console.log(`Socket.IO chess server listening on port ${port}`);
 });
