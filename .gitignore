@@ -8,3 +8,5 @@ build/
 .next/
 
 out/
+
+.env.local
