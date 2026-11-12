@@ -1,6 +1,6 @@
 # Endgame Chess
 
-Play locally against Stockfish 19 or match a random online opponent. Online games support all requested time controls, server-authoritative clocks and move validation, live SAN updates, resignation, and draw offers/acceptance. The computer mode supports three engine strengths, either color, promotion choice, move review, and undoing a turn. Game play is open to guests; Firebase sign-in is optional. The app now exports a static web build and can be packaged for iOS and Android with Capacitor.
+Endgame Chess lets you play Stockfish 19, challenge a random online opponent, or play with someone on the same device. Online games use server-checked moves and clocks, and support resignation and draw offers. Computer games have three engine strengths, color choice, promotion, move review, and undo. Guests can play; Firebase sign-in is optional. The web app can also be packaged for iOS and Android with Capacitor.
 
 ## Run locally
 
